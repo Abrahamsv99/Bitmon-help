@@ -1,0 +1,112 @@
+/* Hole document */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+p div {
+    font-size: 1.15rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Information div */
+h1 {
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.inside {
+    padding: 0 5% 5% 20%;
+}
+
+.title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.information h2 {
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.information {
+    text-align: left;
+    overflow: scroll;
+    flex: 85%;
+}
+
+img {
+    width: 65%;
+    padding-bottom: 50px;
+    display: block;
+    margin: 20px auto;
+}
+
+.warn-img {
+    width: 40%;
+}
+
+/* Left panel */
+.left-panel {
+    height: 100vh;
+    width: 15%;
+    background-color: #C1E3D7;
+    position: fixed;
+    overflow: scroll;
+    flex: 15%;
+    padding-top: 15px;
+}
+
+.page-links {
+    padding: 5px 18px;
+    display: block;
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.page-links:hover {
+    background-color: #9ECDCC;
+}
+
+.page-header {
+    padding: 7px 10px;
+}
+
+/* Footer */
+footer {
+    padding: 50px 0;
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(116, 116, 116);
+}
+
+footer p {
+    font-size: 1rem;
+    padding-left: 15%;
+}
+
+/* Size change */
+@media (max-width: 768px) {
+    .left-panel {
+        display: none;
+    }
+
+    .inside {
+        padding-left: 5%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    footer p {
+        padding-left: 0;
+    }
+}
