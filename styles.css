@@ -1,11 +1,9 @@
 /* Hole document */
 * {
     margin: 0;
-}
-
-body {
     font-family: 'Nunito', sans-serif;
 }
+
 
 p div {
     font-size: 1.15rem;
@@ -79,6 +77,18 @@ img {
     padding: 7px 10px;
 }
 
+/* Burger */
+.burger-bar{
+    font-size: 2.2rem;
+    color: black;
+}
+
+.burger{
+    background-color: #9ECDCC;
+    display: none;
+}
+
+
 /* Footer */
 footer {
     padding: 50px 0;
@@ -108,5 +118,13 @@ footer p {
 
     footer p {
         padding-left: 0;
+    }
+
+    .burger{
+        display: inline-block;
+        position: sticky;
+        top: 0.1px;
+        padding: 7px;
+        z-index: 1;
     }
 }
